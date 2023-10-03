@@ -4,13 +4,56 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Vanila-JS-Tailwind</title>
+		<!-- Bulma -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- Google Fonts -->
+		<link
+			href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
+			rel="stylesheet"
+		/>
 		<link rel="stylesheet" href="output.css" />
 	</head>
 	<body class="!w-full">
-		<div class="flex items-center w-full bg-red-200">
-			<h1 class="p-2 w-full text-center font-bold text-4xl text-green-100">HELLO WORLD</h1>
-		</div>
-
+		<nav
+			id="navbar"
+			class="w-full bg-gray-200 h-28 px-64 flex gap-28 fixed z-10 opacity-75 transition-all duration-200"
+		>
+			<div class="logo-side flex items-center justify-center">
+				<h1 class="text-3xl font-bold">LOGO</h1>
+			</div>
+			<div class="menu-side flex items-center flex-1 justify-end">
+				<ul class="flex gap-8">
+					<a class="hover:text-green-500 transition-all duration-300" href="#"
+						><li class="p-2 font-medium text-lg">Home</li></a
+					>
+					<a class="hover:text-green-500 transition-all duration-300" href="#"
+						><li class="p-2 font-medium text-lg">About</li></a
+					>
+					<a class="hover:text-green-500 transition-all duration-300" href="#"
+						><li class="p-2 font-medium text-lg">Contact Us</li></a
+					>
+					<a class="hover:text-green-500 transition-all duration-300" href="#"
+						><li class="p-2 font-medium text-lg">Corporate</li></a
+					>
+					<a class="hover:text-green-500 transition-all duration-300" href="#"
+						><li class="p-2 font-medium text-lg">Media</li></a
+					>
+				</ul>
+			</div>
+			<div class="right-side flex items-center">
+				<div class="select">
+					<select>
+						<option>Select dropdown</option>
+						<option>With options</option>
+					</select>
+				</div>
+			</div>
+		</nav>
+		<main class="w-full"></main>
+		<div class="hero w-full h-screen"></div>
+		<div class="section w-full h-screen mt-10"></div>
 		<script src="index.js"></script>
 	</body>
 </html>
