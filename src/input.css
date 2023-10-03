@@ -9,14 +9,14 @@
 }
 
 .hero {
-	background-image: url('/images/img-hero.jpg');
+	background-image: url('images/img-hero.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 
 .section {
-	background-image: url('/images/img-section.jpg');
+	background-image: url('images/img-section.jpg');
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
