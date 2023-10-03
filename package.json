@@ -1,0 +1,17 @@
+{
+	"name": "vanilla",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "tailwind build -i src/input.css -o public/output.css --watch",
+		"watch": "watch \"npm run dev\""
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"devDependencies": {
+		"tailwindcss": "^3.3.3",
+		"watch": "^1.0.2"
+	}
+}
